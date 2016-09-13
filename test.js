@@ -1,7 +1,7 @@
 const test = require('tape');
-const surfBoard = require('./index');
+const helpers = require('./helpers');
 
 test('surfing test', (t) => {
   t.plan(1);
-  t.equal(surfBoard.surfing(), true, 'should be surfing rn');
+  t.equal(helpers.surfing(), true, 'should be surfing rn');
 });

@@ -21,5 +21,8 @@
   "homepage": "https://github.com/hharnisc/surf-board#readme",
   "devDependencies": {
     "tape": "^4.6.0"
+  },
+  "dependencies": {
+    "express": "4.14.0"
   }
 }
