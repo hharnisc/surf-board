@@ -13,7 +13,7 @@ spec:
         tier: backend
     spec:
       containers:
-      - name: surf-board
+      - name: surfboard
         image: hharnisc/surf-board:8f122682cb71128f3d949cfd6f89dda6d03f7e43
         ports:
         - containerPort: 80
