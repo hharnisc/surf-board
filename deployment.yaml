@@ -1,0 +1,19 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: surfboard
+  labels:
+    app: surfboard
+spec:
+  replicas: 2
+  template:
+    metadata:
+      labels:
+        app: surfboard
+        tier: backend
+    spec:
+      containers:
+      - name: surf-board
+        image: hharnisc/surf-board:8f122682cb71128f3d949cfd6f89dda6d03f7e43
+        ports:
+        - containerPort: 80
