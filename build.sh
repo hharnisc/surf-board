@@ -1,1 +1,1 @@
-echo "Build Triggered"
+npm i && npm t

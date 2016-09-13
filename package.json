@@ -1,0 +1,25 @@
+{
+  "name": "surf-board",
+  "version": "1.0.0",
+  "description": "A repo to test out https://github.com/surf-build/surf",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hharnisc/surf-board.git"
+  },
+  "keywords": [
+    "surf"
+  ],
+  "author": "Harrison Harnisch <hharnisc@gmail.com> (http://hharnisc.github.io)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hharnisc/surf-board/issues"
+  },
+  "homepage": "https://github.com/hharnisc/surf-board#readme",
+  "devDependencies": {
+    "tape": "^4.6.0"
+  }
+}
